@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <script src="https://kit.fontawesome.com/78d2c9446e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+
+                <img src="logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <div class="text-image-wrapper">
+
+
+                    <div>
+                        <p>Web Developer</p>
+                        <h1>Hi, I'm <span>Tanuj Gupta</span> <br> I am a Web Developer</h1>
+                    </div>
+                    <img src="coderta.avif" class="imag">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- -----about ------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="coder.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I’m a web developer passionate about building responsive and engaging websites. Hi! I'm Tanuj
+                        Gupta, a curious mind who loves turning ideas into beautiful, functional websites. Coding isn't
+                        just my skill—it's my creative outlet. I specialize in building modern, user-friendly websites
+                        using HTML, CSS, JavaScript, and frameworks like React. My goal is to create impactful digital
+                        experiences that solve real problems. As an engineering student with a passion for coding, I
+                        thrive on solving real-world problems through logical thinking and efficient code.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Frontend Development</li>
+                            <li><span>Programming Fundamentals</span><br>Dsa oops</li>
+                            <li><span>Web Designing</span><br>
+                                Designing web interface</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2025-current</span><br>Frontend Development</li>
+                            <li><span> 2024</span><br>Dsa c++ </li>
+                            <li><span>2023</span><br>
+                                C programming</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2023-2027</span><br> B.Tech </li>
+                            <li><span> 2022</span><br> 12th Board </li>
+                            <li><span>2020 </span><br>
+                                10th Board </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------services----------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-titile">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I create responsive, user-friendly websites tailored to your brand and business goals—optimized
+                        for speed, accessibility, and performance. I build visually appealing and interactive frontends
+                        using modern technologies like HTML, CSS, JavaScript, and React.js.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Programmer</h2>
+                    <p>Enhance website perfomance, including load times and mobile responsiveness. provide expert advice
+                        on programming related matters and technology strategies</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Code Review</h2>
+                    <p>I can assist with debugging and code reviews helping you identify and fix issues in your code
+                        runs smoothly and efficiently.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------portfolio-------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the best songs around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>online shopping App</h3>
+                        <p>The app helps you to shopping online around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+
+    <!---------------contact--------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i> 0128364xxx</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/tanuj-gupta-a40b01324/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+
+
+                    </div>
+                    <a href="" class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+
+                        <input type="Email" name="Email" placeholder="Your Email " required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169; tanuj. Made with <i class="fa-solid fa-heart"></i> All Right Reserved</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
